@@ -1,0 +1,142 @@
+* {
+    font-size: 100%;
+    font-family: Arial;
+}
+
+*:focus {
+    outline: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.wrapper {
+    width: 50%;
+    padding: 50px;
+    border: 1px solid #ccc;
+}
+
+.form-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.field {
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.field__label {
+    padding: 8px 6px;
+    width: 120px;
+}
+
+.field__input {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 0;
+    border: 1px solid #3f6db9;
+}
+
+.field > div {
+    width: 58%;
+}
+
+select {
+    font-size: 14px;
+    width: 180px;
+    height: 30px;
+    border: 1px solid #3f6db9;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-submit {
+    font-size: 14px;
+    color: #0a3576;
+    background-color: #fff;
+    padding: 10px 24px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border: 1px solid rgb(2, 40, 82);
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}
+
+.btn-submit:hover {
+    background-color: #4983ca;
+    color: #eeeeee;
+}
+
+.btn-add {
+    font-size: 14px;
+    color: #0a3576;
+    background-color: #fff;
+    padding: 8px 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(2, 40, 82);
+    cursor: pointer;
+    transition: ease-in-out 0.4s;
+}
+
+.btn-add:hover {
+    background-color: #4983ca;
+    color: #eeeeee;
+}
+
+.btn-action {
+    font-size: 13px;
+    color: #0a3576;
+    background-color: #fff;
+    padding: 8px 16px;
+    border: 1px solid rgb(2, 40, 82);
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+.btn-action:hover {
+    background-color: #4983ca;
+    color: #eeeeee;
+}
+
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.list-student {
+    margin-top: 30px;
+}
